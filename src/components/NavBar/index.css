@@ -1,0 +1,32 @@
+img {
+    height: 150px;
+}
+
+.container__clz {
+    display: grid;
+    width: 500px;
+    grid-template-columns: auto auto;
+}
+.grid_container__clz {
+    display: grid;
+    grid-template-columns: 0.5fr 1.9fr 0.6fr;
+    grid-template-rows: 0.2fr;
+    gap: 0px 0px;
+    grid-template-areas: "logoo text but";
+}
+.logoo {
+    grid-area: logoo;
+}
+.text__clz {
+    grid-area: text;
+
+    margin-top: 40px;
+    text-align: center;
+}
+.but {
+    grid-area: but;
+}
+
+.d-flex {
+    margin-top: 30px;
+}
